@@ -23,7 +23,7 @@ End the program
 
 ## Program:
 (i) To find the L and U matrix
-
+```
 '''Program to find L and U matrix using LU decomposition.
 Developed by: Archana.k
 RegisterNumber: 22009150
@@ -34,6 +34,7 @@ A=np.array(eval(input()))
 P,L,U=lu(A)
 print(L)
 print(U)
+```
 (ii) To find the LU Decomposition of a matrix
 ```
 '''Program to solve a matrix using LU decomposition.
@@ -48,11 +49,10 @@ b=np.array(eval(input()))
 lu,piv=lu_factor(A)
 x=lu_solve((lu,piv),b)
 print(x)
-
+```
 ## Output:
-![Screenshot 2023-01-12 at 09-26-16 Ex05-CR- LU Decomposition Attempt review](https://user-images.githubusercontent.com/118708624/212016291-c57e4a51-8fc7-4b95-8d68-e0252c8faf03.png)
-
-![Screenshot 2023-01-12 at 09-29-49 Ex05-CR- LU Decomposition Attempt review](https://user-images.githubusercontent.com/118708624/212016357-56c95dea-d8b3-4cea-875d-b49439ef3636.png)
+![Screenshot 2023-01-12 at 09-26-16 Ex05-CR- LU Decomposition Attempt review](https://user-images.githubusercontent.com/118708624/212121005-619d0071-23f9-40f5-9487-c331b9371fc5.png)
+![Screenshot 2023-01-12 at 09-29-49 Ex05-CR- LU Decomposition Attempt review](https://user-images.githubusercontent.com/118708624/212121181-aba63d10-7736-49f0-b33f-5e0ec3dddd2d.png)
 
 
 ## Result:
