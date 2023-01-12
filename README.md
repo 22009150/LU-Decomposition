@@ -40,7 +40,6 @@ print(U)
 Developed by: Archana.k
 RegisterNumber: 22009150
 '''
-
 # To print X matrix (solution to the equations)
 import numpy as np
 from scipy.linalg import lu_factor,lu_solve
@@ -51,9 +50,9 @@ x=lu_solve((lu,piv),b)
 print(x)
 
 ## Output:
-![lu decomposition]()
-![image](https://user-images.githubusercontent.com/118708624/211973356-01f47620-0ebb-4097-b6e1-328e6f6c6278.png)
-![image](https://user-images.githubusercontent.com/118708624/211973410-b5356e20-326e-4dfa-b6f9-66ebb5b85888.png)
+![Screenshot 2023-01-12 at 09-26-16 Ex05-CR- LU Decomposition Attempt review](https://user-images.githubusercontent.com/118708624/212016291-c57e4a51-8fc7-4b95-8d68-e0252c8faf03.png)
+
+![Screenshot 2023-01-12 at 09-29-49 Ex05-CR- LU Decomposition Attempt review](https://user-images.githubusercontent.com/118708624/212016357-56c95dea-d8b3-4cea-875d-b49439ef3636.png)
 
 
 ## Result:
